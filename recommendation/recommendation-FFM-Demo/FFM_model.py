@@ -11,7 +11,7 @@ vector_dimension = 3
 
 total_plan_train_steps = 1000
 # 使用SGD，每一个样本进行依次梯度下降，更新参数
-batch_size = 1
+batch_size = 100
 
 # 样本量
 data_cnt = 1000
@@ -22,17 +22,17 @@ MODEL_SAVE_PATH = "TFModel"
 MODEL_NAME = "FFM"
 
 # 定义参数
-def createTwoDimensionWeight(feature_cnt, field_cnt, vector_dimension):
+def create_latent_weight(feature_cnt, field_cnt, vector_dimension):
     weights = tf.truncated_normal([feature_cnt, field_cnt, vector_dimension])
     tf_weights = tf.Variable(weights)
     return tf_weights
 
-def createOneDimensionWeight(feature_cnt):
-    weights = tf.truncated_normal([feature_cnt])
+def create_one_dimension_weight(feature_cnt):
+    weights = tf.truncated_normal([feature_cnt, 1])
     tf_weights = tf.Variable(weights)
     return tf_weights
 
-def createZeroDimensionWeight():
+def create_bias():
     weights = tf.truncated_normal([1])
     tf_weights = tf.Variable(weights)
     return tf_weights
@@ -41,12 +41,13 @@ def createZeroDimensionWeight():
 def inference(input_x, input_x_field, zeroWeights, oneDimWeights, thirdWeight):
     """计算回归模型输出的值"""
     # w*x
-    secondValue = tf.reduce_sum(tf.multiply(oneDimWeights, input_x, name='secondValue'))
-    # w*x+b
+    secondValue = tf.matmul(input_x, oneDimWeights, name='secondValue')
+    # w*x+b 一次项
     firstTwoValue = tf.add(zeroWeights, secondValue, name="firstTwoValue")
+    # 二次项
+    thirdValue = []
 
-    thirdValue = tf.Variable(0.0, dtype=tf.float32)
-
+    print('third')
     for i in range(feature_cnt-1):
         # 第一个交叉特征对应的索引i
         featureIndex1 = i
@@ -60,34 +61,28 @@ def inference(input_x, input_x_field, zeroWeights, oneDimWeights, thirdWeight):
             # # 提取出特征1对应的field
             # 隐向量1对应的索引[特征1索引，特征2所属field，隐向量维度]
             vectorLeft = tf.convert_to_tensor([[featureIndex1, fieldIndex2, i] for i in range(vector_dimension)])
-            # 分片索引，shape=[1, 1, vector_dimension]
+            # 分片索引，shape=[vector_dimension,]
             weightLeft = tf.gather_nd(thirdWeight, vectorLeft)
-            # shape = [vector_dimension,]
-            # weightLeftAfterCut = tf.squeeze(weightLeft)
 
             # # 提取出特征2对应的field
             # 隐向量2对应的索引[特征2索引，特征1所属field，隐向量维度]
             vectorRight = tf.convert_to_tensor([[featureIndex2, fieldIndex1, i] for i in range(vector_dimension)])
             # 分片索引，[vector_dimension,]
             weightRight = tf.gather_nd(thirdWeight, vectorRight)
-            # shape =
-            # weightRightAfterCut = tf.squeeze(weightRight)
             # transpose(vi,fj) * vj,fi
             tempValue = tf.reduce_sum(tf.multiply(weightLeft, weightRight))
 
-            indices2 = [i]
-            indices3 = [j]
+            feature1_index = tf.convert_to_tensor([[row, i] for row in range(batch_size)])
+            feature2_index = tf.convert_to_tensor([[row, j] for row in range(batch_size)])
 
-            xi = tf.squeeze(tf.gather_nd(input_x, indices2))
-            xj = tf.squeeze(tf.gather_nd(input_x, indices3))
-
-            product = tf.reduce_sum(tf.multiply(xi, xj))
+            xi = tf.gather_nd(input_x, feature1_index)
+            xj = tf.gather_nd(input_x, feature2_index)
+            product = tf.reshape(tf.multiply(xi, xj), [batch_size, -1])
 
             secondItemVal = tf.multiply(tempValue, product)
 
-            tf.assign(thirdValue, tf.add(thirdValue, secondItemVal))
-
-    return tf.add(firstTwoValue, thirdValue)
+            thirdValue.append(secondItemVal)
+    return tf.add(firstTwoValue, tf.reduce_sum(thirdValue, 0))
 
 
 def gen_data():
@@ -105,17 +100,17 @@ if __name__ == '__main__':
     global_step = tf.Variable(0, trainable=False)
     trainx, trainy, trainx_field = gen_data()
     #
-    input_x = tf.placeholder(tf.float32, [feature_cnt])
-    input_y = tf.placeholder(tf.float32)
+    input_x = tf.placeholder(tf.float32, [None, feature_cnt])
+    input_y = tf.placeholder(tf.float32, [None, ])
 
 
     lambda_w = tf.constant(0.001, name='lambda_w')
     lambda_v = tf.constant(0.001, name='lambda_v')
 
-    zeroWeights = createZeroDimensionWeight()
-    oneDimWeights = createOneDimensionWeight(feature_cnt)
+    zeroWeights = create_bias()
+    oneDimWeights = create_one_dimension_weight(feature_cnt)
     # 创建二次项的权重变量 n * f * k
-    thirdWeight = createTwoDimensionWeight(feature_cnt,
+    thirdWeight = create_latent_weight(feature_cnt,
                                            field_cnt,
                                            vector_dimension)
 
@@ -128,7 +123,7 @@ if __name__ == '__main__':
         )
     )
 
-    loss = tf.log(1 + tf.exp(-input_y * y_)) + l2_norm
+    loss = tf.reduce_mean(tf.log(1 + tf.exp(-input_y * y_))) + l2_norm
 
     train_step = tf.train.GradientDescentOptimizer(learning_rate=lr).minimize(loss)
 
@@ -136,9 +131,10 @@ if __name__ == '__main__':
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         for i in range(total_plan_train_steps):
-            for t in range(data_cnt):
-                input_x_batch = trainx[t]
-                input_y_batch = trainy[t]
+            for t in range(0, data_cnt, batch_size):
+                end = t+batch_size if t+batch_size < data_cnt else data_cnt
+                input_x_batch = trainx[t:end]
+                input_y_batch = trainy[t:end]
                 predict_loss, _ = sess.run([loss, train_step],
                                            feed_dict={input_x: input_x_batch, input_y: input_y_batch})
 
