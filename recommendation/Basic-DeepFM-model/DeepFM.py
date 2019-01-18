@@ -134,7 +134,6 @@ class DeepFM(BaseEstimator, TransformerMixin):
             # loss
             if self.loss_type == "logloss":
                 self.loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=self.label, logits=self.out)
-
             elif self.loss_type == "mse":
                 self.loss = tf.nn.l2_loss(tf.subtract(self.label, self.out))
             # L2正则化
@@ -252,8 +251,8 @@ class DeepFM(BaseEstimator, TransformerMixin):
 
     def predict(self, Xi, Xv):
         """
-        :param Xi: list of list of feature indices of each sample in the dataset
-        :param Xv: list of list of feature values of each sample in the dataset
+        :param Xi: 非零特征值的index(list of list)
+        :param Xv: 非零特征值(list of list)
         :return: predicted probability of each sample
         """
         # dummy y

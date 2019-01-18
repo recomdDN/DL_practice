@@ -103,13 +103,13 @@ def _make_submission(ids, y_pred, filename="submission.csv"):
 
 
 def _plot_fig(train_results, valid_results, model_name):
-    colors = ["red", "blue", "green"]
     xs = np.arange(1, train_results.shape[1] + 1)
     plt.figure()
     legends = []
     for i in range(train_results.shape[0]):
-        plt.plot(xs, train_results[i], color=colors[i], linestyle="solid", marker="o")
-        plt.plot(xs, valid_results[i], color=colors[i], linestyle="dashed", marker="o")
+        print(i, np.shape(train_results))
+        plt.plot(xs, train_results[i], linestyle="solid", marker="o")
+        plt.plot(xs, valid_results[i], linestyle="dashed", marker="o")
         legends.append("train-%d" % (i + 1))
         legends.append("valid-%d" % (i + 1))
     plt.xlabel("Epoch")
