@@ -49,7 +49,7 @@ def run_base_model_dcn(dfTrain, dfTest, folds, dcn_params):
     # 离散型特征个数
     dcn_params["n_field"] = len(cate_Xi_train[0])
     print('values', str(fd.feat_dim), 'values', str(len(cate_Xi_train[0])))
-
+#
     _get = lambda x, l: [x[i] for i in l]
 
     for i, (train_idx, valid_idx) in enumerate(folds):

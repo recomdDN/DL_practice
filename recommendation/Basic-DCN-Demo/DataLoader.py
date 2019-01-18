@@ -32,7 +32,7 @@ class FeatureDictionary(object):
         # 总离散特征个数
         self.feat_dim = tc
 
-
+#
 class DataParser(object):
     def __init__(self, feat_dict):
         self.feat_dict = feat_dict
