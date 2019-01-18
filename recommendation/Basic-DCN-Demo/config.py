@@ -7,7 +7,7 @@ SUB_DIR = "output"
 NUM_SPLITS = 3
 RANDOM_SEED = 2017
 
-# types of columns of the dataset dataframe
+# 离散型特征列名
 CATEGORICAL_COLS = [
     'ps_ind_02_cat', 'ps_ind_04_cat', 'ps_ind_05_cat',
     'ps_car_01_cat', 'ps_car_02_cat', 'ps_car_03_cat',
@@ -15,7 +15,9 @@ CATEGORICAL_COLS = [
     'ps_car_07_cat', 'ps_car_08_cat', 'ps_car_09_cat',
     'ps_car_10_cat', 'ps_car_11_cat',
 ]
+N_CATE_FEATURE = len(CATEGORICAL_COLS)
 
+# 数值型特征列名
 NUMERIC_COLS = [
     # # binary
     # "ps_ind_06_bin", "ps_ind_07_bin", "ps_ind_08_bin",
@@ -31,7 +33,9 @@ NUMERIC_COLS = [
     # feature engineering
     "missing_feat", "ps_car_13_x_ps_reg_03",
 ]
+N_NUMERIC_FEATURE = len(NUMERIC_COLS)
 
+# 不使用的列
 IGNORE_COLS = [
     "id", "target",
     "ps_calc_01", "ps_calc_02", "ps_calc_03", "ps_calc_04",
