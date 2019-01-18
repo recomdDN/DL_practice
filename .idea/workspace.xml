@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="修改稀疏矩阵的结构">
+    <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="修复inference中使用assign导致二次项没有加入运算">
+      <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM-0.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM-0.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM-0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DNN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DeepFM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/FM.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$mlr.coverage" NAME="mlr Coverage Results" MODIFIED="1529722291768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
     <SUITE FILE_PATH="coverage/DL_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1547700595304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$plotResult.coverage" NAME="plotResult Coverage Results" MODIFIED="1529723400750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1547804163394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DCN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$NoisyNetDQN.coverage" NAME="NoisyNetDQN Coverage Results" MODIFIED="1545129767563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-NoisyNet-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$news_preprocess.coverage" NAME="news_preprocess Coverage Results" MODIFIED="1541602017949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$AC.coverage" NAME="AC Coverage Results" MODIFIED="1543483823897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-AC-Demo" />
@@ -61,18 +61,49 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1542602954609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MKR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1535904633696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1541940517652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1547775150718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DeepFM-model" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1543484075025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="130" column="30" lean-forward="true" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
+            <state relative-caret-position="945">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -105,7 +136,26 @@
       <find>num_leaf</find>
       <find>input_x_size</find>
       <find>batch_size</find>
+      <find>feature_size</find>
+      <find>train_result</find>
+      <find>NUM_SPLITS</find>
+      <find>epoch</find>
+      <find>numeric_feature_size</find>
+      <find>field_size</find>
+      <find>cate_feature_size</find>
+      <find>eval_metric</find>
+      <find>eval_metricy_deep</find>
+      <find>y_deep</find>
+      <find>feat_len</find>
+      <find>file</find>
     </findStrings>
+    <replaceStrings>
+      <replace>n_feature</replace>
+      <replace>n_numeric_feature</replace>
+      <replace>n_field</replace>
+      <replace>x_deep</replace>
+      <replace>n_cate_feature</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -114,15 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-PPO-Demo/simple-PPO.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-AC-Demo.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py" />
-        <option value="$PROJECT_DIR$/RL/compareAC.py" />
-        <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/hyperparams.py" />
-        <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/eval.py" />
         <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data_path" />
         <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data_load.py" />
         <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/modules.py" />
@@ -165,6 +206,15 @@
         <option value="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" />
         <option value="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/test.py" />
         <option value="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/DataReader.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/DeepFM.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/config.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/metrics.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py" />
       </list>
     </option>
   </component>
@@ -195,14 +245,20 @@
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation-FFM-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-DCN-Demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation-FFM-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TFModel" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-DCN-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation-FM-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FFM_model">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="FFM_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GBDT_LR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/GBDT+LR-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_gail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,12 +376,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/run_gail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,19 +413,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_gail" />
-      <item itemvalue="Python.GBDT_LR" />
       <item itemvalue="Python.FM_model" />
       <item itemvalue="Python.FFM_model" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.FFM_model" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.FM_model" />
-        <item itemvalue="Python.GBDT_LR" />
-        <item itemvalue="Python.run_gail" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +440,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525062397913</updated>
       <workItem from="1547532545695" duration="31277000" />
-      <workItem from="1547624150475" duration="26065000" />
+      <workItem from="1547624150475" duration="64942000" />
     </task>
     <task id="LOCAL-00001" summary="修改稀疏矩阵的结构">
       <created>1547623386428</created>
@@ -407,11 +463,39 @@
       <option name="project" value="LOCAL" />
       <updated>1547631588995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复inference中使用assign导致二次项没有加入运算">
+      <created>1547705585835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547705585835</updated>
+    </task>
+    <task id="LOCAL-00005" summary="备注">
+      <created>1547717879869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547717879869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="备注">
+      <created>1547775558424</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547775558424</updated>
+    </task>
+    <task id="LOCAL-00007" summary="..">
+      <created>1547804211684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547804211684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57342000" />
+    <option name="totallyTimeSpent" value="96219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,15 +508,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1552" height="1391" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1888298" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291039" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33544806" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2947702" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29421094" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884312" />
@@ -440,7 +523,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.21870047" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32884312" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.24742268" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -457,7 +540,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改稀疏矩阵的结构" />
     <MESSAGE value="标注" />
-    <option name="LAST_COMMIT_MESSAGE" value="标注" />
+    <MESSAGE value="修复inference中使用assign导致二次项没有加入运算" />
+    <MESSAGE value="备注" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,6 +557,11 @@
           <url>file://$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/src/base_model.py</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -498,134 +589,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RL/DQN-demo/RL_brain.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/envs/python3_5/lib/python3.5/site-packages/tensorflow/python/ops/state_ops.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-NoisyNet-Demo/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssfsdfsdf.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-NoisyNet-Demo/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="44" lean-forward="true" selection-start-line="13" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-NoisyNet-Demo/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Double-DQN-demo/RL_brain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Dueling DQN Demo/RL_brain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-NoisyNet-Demo/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-NoisyNet-Demo/NoisyNetDQN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="78" column="91" selection-start-line="75" selection-start-column="8" selection-end-line="78" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/framework/ops.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-DisRL-Demo/Categorical_DQN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/gym/wrappers/time_limit.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/preprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#45#63#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/batchEnv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="156" column="30" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/replayMemory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/sumTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/huberLoss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -739,13 +702,6 @@
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-AFM-Demo/data/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="2141" column="8" lean-forward="true" selection-start-line="2141" selection-start-column="8" selection-end-line="2142" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/lightgbm/basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2509">
@@ -757,16 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,24 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="3119" column="4" selection-start-line="3119" selection-start-column="4" selection-end-line="3119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1288" column="4" selection-start-line="1288" selection-start-column="4" selection-end-line="1288" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -840,10 +772,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MLR-Demo/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="130" column="30" lean-forward="true" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
+        <state relative-caret-position="567">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/data/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/data/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/losses/losses_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-927">
+          <caret line="740" column="4" selection-start-line="740" selection-start-column="4" selection-end-line="740" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="4281" column="29" lean-forward="true" selection-start-line="4281" selection-start-column="29" selection-end-line="4281" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/FM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DNN.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DeepFM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/embedding_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1648">
+          <caret line="347" column="77" lean-forward="true" selection-start-line="347" selection-start-column="77" selection-end-line="347" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/DataReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1337">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DeepFM-model/DeepFM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="248" column="37" lean-forward="true" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/sklearn/metrics/ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="2842" column="41" lean-forward="true" selection-start-line="2842" selection-start-column="41" selection-end-line="2842" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/data/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/data/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="682" column="33" lean-forward="true" selection-start-line="682" selection-start-column="33" selection-end-line="682" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
