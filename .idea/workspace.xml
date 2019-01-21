@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="修复inference中使用assign导致二次项没有加入运算">
+    <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DNN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DeepFM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/FM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/sfsfs.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,94 +17,95 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tensorflow1_2$BPR.coverage" NAME="BPR Coverage Results" MODIFIED="1530202420711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-BPR-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$cf_gan.coverage" NAME="cf_gan Coverage Results" MODIFIED="1537765219138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$gen_model.coverage" NAME="gen_model Coverage Results" MODIFIED="1532186281780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1548055571954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-PNN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$A2C.coverage" NAME="A2C Coverage Results" MODIFIED="1543483826546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A2C-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$HindSightExperienceReplay.coverage" NAME="HindSightExperienceReplay Coverage Results" MODIFIED="1544968249611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-HER-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$Categorical_DQN.coverage" NAME="Categorical_DQN Coverage Results" MODIFIED="1545365293074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DisRL-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$run_CartPole.coverage" NAME="run_CartPole Coverage Results" MODIFIED="1543383921818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-Actor-Critic" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$simple_PPO.coverage" NAME="simple-PPO Coverage Results" MODIFIED="1543323533617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-PPO-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$lr.coverage" NAME="lr Coverage Results" MODIFIED="1529722387251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow_practice$GBDT_LR.coverage" NAME="GBDT_LR Coverage Results" MODIFIED="1547535568054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/GBDT+LR-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$run_gail.coverage" NAME="run_gail Coverage Results" MODIFIED="1546175598437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$multi_task_alternate_training.coverage" NAME="multi-task-alternate-training Coverage Results" MODIFIED="1533109405226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/multi-task-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$FM_model.coverage" NAME="FM_model Coverage Results" MODIFIED="1547623068693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FM-demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$NDCG.coverage" NAME="NDCG Coverage Results" MODIFIED="1529307976227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-Evaluation-metrics" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$netease.coverage" NAME="netease Coverage Results" MODIFIED="1534173544289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1541647709452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$data.coverage" NAME="data Coverage Results" MODIFIED="1529689500332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_practice.coverage" NAME="tf_practice Coverage Results" MODIFIED="1537593989869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$compareAC.coverage" NAME="compareAC Coverage Results" MODIFIED="1543484381532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$prepare_data_for_transx.coverage" NAME="prepare_data_for_transx Coverage Results" MODIFIED="1541603869565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1545543706778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-Rainbow-Net" />
     <SUITE FILE_PATH="coverage/DL_practice$FFM_model.coverage" NAME="FFM_model Coverage Results" MODIFIED="1547701224077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$maxout.coverage" NAME="maxout Coverage Results" MODIFIED="1537676745150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$zhihu2.coverage" NAME="zhihu2 Coverage Results" MODIFIED="1535979949880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tensorflow_practice$FFM_model.coverage" NAME="FFM_model Coverage Results" MODIFIED="1547604708214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$resnet_mnist.coverage" NAME="resnet_mnist Coverage Results" MODIFIED="1540611064870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CV/ResNet" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$mlr.coverage" NAME="mlr Coverage Results" MODIFIED="1529722291768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
-    <SUITE FILE_PATH="coverage/DL_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1547700595304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$plotResult.coverage" NAME="plotResult Coverage Results" MODIFIED="1529723400750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
-    <SUITE FILE_PATH="coverage/DL_practice$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1547804163394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DCN-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$NoisyNetDQN.coverage" NAME="NoisyNetDQN Coverage Results" MODIFIED="1545129767563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-NoisyNet-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1548051043972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DCN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$news_preprocess.coverage" NAME="news_preprocess Coverage Results" MODIFIED="1541602017949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$AC.coverage" NAME="AC Coverage Results" MODIFIED="1543483823897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-AC-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$eval.coverage" NAME="eval Coverage Results" MODIFIED="1544443557846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/Basic-Transformer-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$multi_task_joint_training.coverage" NAME="multi-task-joint-training Coverage Results" MODIFIED="1533110252951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/multi-task-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$run_ppo.coverage" NAME="run_ppo Coverage Results" MODIFIED="1546172513596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$ssfsdfsdf.coverage" NAME="ssfsdfsdf Coverage Results" MODIFIED="1545133607011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main.coverage" NAME="main Coverage Results" MODIFIED="1545137858530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-NoisyNet-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$kg_preprocess.coverage" NAME="kg_preprocess Coverage Results" MODIFIED="1541604856562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$DRQN.coverage" NAME="DRQN Coverage Results" MODIFIED="1530434931296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DRQN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1545377037092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DisRL-Demo" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$train.coverage" NAME="train Coverage Results" MODIFIED="1544449110606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/Basic-Transformer-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_data_demo.coverage" NAME="tf_data_demo Coverage Results" MODIFIED="1528181619719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-NCF-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1547775150718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DeepFM-model" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1543484075025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$cf_gan.coverage" NAME="cf_gan Coverage Results" MODIFIED="1537765219138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$gen_model.coverage" NAME="gen_model Coverage Results" MODIFIED="1532186281780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$HindSightExperienceReplay.coverage" NAME="HindSightExperienceReplay Coverage Results" MODIFIED="1544968249611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-HER-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$Categorical_DQN.coverage" NAME="Categorical_DQN Coverage Results" MODIFIED="1545365293074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DisRL-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$simple_PPO.coverage" NAME="simple-PPO Coverage Results" MODIFIED="1543323533617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-PPO-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$lr.coverage" NAME="lr Coverage Results" MODIFIED="1529722387251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$GBDT_LR.coverage" NAME="GBDT_LR Coverage Results" MODIFIED="1547535568054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/GBDT+LR-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$run_gail.coverage" NAME="run_gail Coverage Results" MODIFIED="1546175598437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$multi_task_alternate_training.coverage" NAME="multi-task-alternate-training Coverage Results" MODIFIED="1533109405226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/multi-task-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$NDCG.coverage" NAME="NDCG Coverage Results" MODIFIED="1529307976227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-Evaluation-metrics" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$netease.coverage" NAME="netease Coverage Results" MODIFIED="1534173544289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1541647709452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$data.coverage" NAME="data Coverage Results" MODIFIED="1529689500332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$compareAC.coverage" NAME="compareAC Coverage Results" MODIFIED="1543484381532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$prepare_data_for_transx.coverage" NAME="prepare_data_for_transx Coverage Results" MODIFIED="1541603869565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$zhihu2.coverage" NAME="zhihu2 Coverage Results" MODIFIED="1535979949880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$FFM_model.coverage" NAME="FFM_model Coverage Results" MODIFIED="1547604708214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$resnet_mnist.coverage" NAME="resnet_mnist Coverage Results" MODIFIED="1540611064870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CV/ResNet" />
+    <SUITE FILE_PATH="coverage/DL_practice$test.coverage" NAME="test Coverage Results" MODIFIED="1547700595304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$plotResult.coverage" NAME="plotResult Coverage Results" MODIFIED="1529723400750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$NoisyNetDQN.coverage" NAME="NoisyNetDQN Coverage Results" MODIFIED="1545129767563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-NoisyNet-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$AC.coverage" NAME="AC Coverage Results" MODIFIED="1543483823897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-AC-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$eval.coverage" NAME="eval Coverage Results" MODIFIED="1544443557846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/Basic-Transformer-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$DRQN.coverage" NAME="DRQN Coverage Results" MODIFIED="1530434931296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DRQN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow1_2$train.coverage" NAME="train Coverage Results" MODIFIED="1544449110606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/Basic-Transformer-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1542602954609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MKR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1535904633696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1541940517652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo" />
-    <SUITE FILE_PATH="coverage/DL_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1547775150718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DeepFM-model" />
-    <SUITE FILE_PATH="coverage/tensorflow1_2$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1543484075025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/PNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="562">
+              <caret line="114" column="18" lean-forward="true" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,20 +155,18 @@
       <replace>n_feature</replace>
       <replace>n_numeric_feature</replace>
       <replace>n_field</replace>
-      <replace>x_deep</replace>
       <replace>n_cate_feature</replace>
+      <replace>x_deep</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data_path" />
-        <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data_load.py" />
-        <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/modules.py" />
         <option value="$PROJECT_DIR$/basic/Basic-Transformer-Demo/train.py" />
         <option value="$PROJECT_DIR$/RL/Basic-HER-Demo/readme" />
         <option value="$PROJECT_DIR$/basic/some_numpy_fun.py" />
@@ -212,9 +212,12 @@
         <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/metrics.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py" />
       </list>
     </option>
   </component>
@@ -222,6 +225,9 @@
     <option name="y" value="27" />
     <option name="width" value="1552" />
     <option name="height" value="1391" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,8 +257,7 @@
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-DCN-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-PNN-Demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="FFM_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -324,28 +329,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FM_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow1.2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/recommendation-FM-demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,6 +343,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,19 +418,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FM_model" />
       <item itemvalue="Python.FFM_model" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.FFM_model" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.FM_model" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +445,8 @@
       <option name="presentableId" value="Default" />
       <updated>1525062397913</updated>
       <workItem from="1547532545695" duration="31277000" />
-      <workItem from="1547624150475" duration="64942000" />
+      <workItem from="1547624150475" duration="65811000" />
+      <workItem from="1548050814013" duration="10056000" />
     </task>
     <task id="LOCAL-00001" summary="修改稀疏矩阵的结构">
       <created>1547623386428</created>
@@ -491,11 +497,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547804211684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修复inference中使用assign导致二次项没有加入运算">
+      <created>1547804481738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547804481738</updated>
+    </task>
+    <task id="LOCAL-00009" summary="..">
+      <created>1547804568080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547804568080</updated>
+    </task>
+    <task id="LOCAL-00010" summary="..">
+      <created>1547804598445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547804598445</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96219000" />
+    <option name="totallyTimeSpent" value="107144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,8 +535,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1552" height="1391" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1888298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19148937" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,8 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改稀疏矩阵的结构" />
     <MESSAGE value="标注" />
-    <MESSAGE value="修复inference中使用assign导致二次项没有加入运算" />
     <MESSAGE value="备注" />
+    <MESSAGE value="修复inference中使用assign导致二次项没有加入运算" />
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
@@ -589,45 +617,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/huberLoss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Rainbow-Net/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-GAIL-Demo/newwork_models.py" />
     <entry file="file://$PROJECT_DIR$/RL/Basic-GAIL-Demo/sample_trajectory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -765,13 +754,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/test.py" />
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -926,23 +909,6 @@
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/data/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -950,20 +916,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3467">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="198">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/sfsfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        <state relative-caret-position="198">
+          <caret line="73" column="68" lean-forward="true" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="90" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/PNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="114" column="18" lean-forward="true" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
