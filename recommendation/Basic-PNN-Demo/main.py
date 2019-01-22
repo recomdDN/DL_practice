@@ -28,15 +28,9 @@ def load_data():
     cols = [c for c in dfTrain.columns if c not in ['id', 'target']]
     cols = [c for c in cols if (not c in config.IGNORE_COLS)]
 
-    X_train = dfTrain[cols].values
-    y_train = dfTrain['target'].values
-
-    X_test = dfTest[cols].values
-    ids_test = dfTest['id'].values
-
     cat_features_indices = [i for i, c in enumerate(cols) if c in config.CATEGORICAL_COLS]
 
-    return dfTrain, dfTest, X_train, y_train, X_test, ids_test, cat_features_indices
+    return dfTrain, dfTest, cat_features_indices
 
 
 def run_base_model_pnn(dfTrain, dfTest, folds, pnn_params):
@@ -85,7 +79,7 @@ pnn_params = {
 }
 
 # load data
-dfTrain, dfTest, X_train, y_train, X_test, ids_test, cat_features_indices = load_data()
+dfTrain, dfTest, cat_features_indices = load_data()
 
 # folds
 folds = list(StratifiedKFold(n_splits=config.NUM_SPLITS, shuffle=True,
