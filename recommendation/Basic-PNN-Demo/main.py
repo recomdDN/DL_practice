@@ -52,11 +52,12 @@ def run_base_model_pnn(dfTrain, dfTest, folds, pnn_params):
 
     print(dfTrain.dtypes)
 
-    pnn_params['feature_size'] = fd.feat_dim
-    pnn_params['field_size'] = len(Xi_train[0])
+    pnn_params['n_feature'] = fd.feat_dim
+    pnn_params['n_field'] = len(Xi_train[0])
 
     _get = lambda x, l: [x[i] for i in l]
 
+    # 交叉验证
     for i, (train_idx, valid_idx) in enumerate(folds):
         Xi_train_, Xv_train_, y_train_ = _get(Xi_train, train_idx), _get(Xv_train, train_idx), _get(y_train, train_idx)
         Xi_valid_, Xv_valid_, y_valid_ = _get(Xi_train, valid_idx), _get(Xv_train, valid_idx), _get(y_train, valid_idx)
