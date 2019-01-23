@@ -5,7 +5,8 @@ import os
 
 DATA_DIR = 'data/ratings.dat'
 DATA_PATH = 'data/'
-COLUMN_NAMES = ['user','item']
+COLUMN_NAMES = ['user', 'item']
+
 
 def re_index(s):
     i = 0
@@ -15,22 +16,21 @@ def re_index(s):
         i += 1
     return s_map
 
-def load_data():
-    full_data = pd.read_csv(DATA_DIR,sep='::',header=None,names=COLUMN_NAMES,
-                            usecols=[0,1],dtype={0:np.int32,1:np.int32},engine='python')
 
+def load_data():
+    full_data = pd.read_csv(DATA_DIR, sep='::', header=None, names=COLUMN_NAMES,
+                            usecols=[0, 1], dtype={0: np.int32, 1: np.int32}, engine='python')
 
     full_data.user = full_data['user'] - 1
     user_set = set(full_data['user'].unique())
     item_set = set(full_data['item'].unique())
 
-    user_size = len(user_set)
-    item_size = len(item_set)
+    n_user = len(user_set)
+    n_item = len(item_set)
 
     item_map = re_index(item_set)
-    item_list = []
 
-    full_data['item'] = full_data['item'].map(lambda x:item_map[x])
+    full_data['item'] = full_data['item'].map(lambda x: item_map[x])
 
     item_set = set(full_data.item.unique())
 
@@ -45,7 +45,6 @@ def load_data():
     user_negative = {}
     for key in user_bought:
         user_negative[key] = list(item_set - set(user_bought[key]))
-
 
     user_length = full_data.groupby('user').size().tolist()
     split_train_test = []
@@ -62,7 +61,7 @@ def load_data():
     del train_data['split']
     del test_data['split']
 
-    labels  = np.ones(len(train_data),dtype=np.int32)
+    labels = np.ones(len(train_data), dtype=np.int32)
 
     train_features = train_data
     train_labels = labels.tolist()
@@ -72,12 +71,12 @@ def load_data():
 
     return ((train_features, train_labels),
             (test_features, test_labels),
-            (user_size, item_size),
+            (n_user, n_item),
             (user_bought, user_negative))
 
 
-def add_negative(features,user_negative,labels,numbers,is_training):
-    feature_user,feature_item,labels_add,feature_dict = [],[],[],{}
+def add_negative(features, user_negative, labels, numbers, is_training):
+    feature_user, feature_item, labels_add, feature_dict = [], [], [], {}
 
     for i in range(len(features)):
         user = features['user'][i]
@@ -88,7 +87,7 @@ def add_negative(features,user_negative,labels,numbers,is_training):
         feature_item.append(item)
         labels_add.append(label)
 
-        neg_samples = np.random.choice(user_negative[user],size=numbers,replace=False).tolist()
+        neg_samples = np.random.choice(user_negative[user], size=numbers, replace=False).tolist()
 
         if is_training:
             for k in neg_samples:
@@ -102,19 +101,17 @@ def add_negative(features,user_negative,labels,numbers,is_training):
                 feature_item.append(k)
                 labels_add.append(k)
 
-
     feature_dict['user'] = feature_user
     feature_dict['item'] = feature_item
 
-    return feature_dict,labels_add
+    return feature_dict, labels_add
 
 
-
-def dump_data(features,labels,user_negative,num_neg,is_training):
+def dump_data(features, labels, user_negative, num_neg, is_training):
     if not os.path.exists(DATA_PATH):
         os.makedirs(DATA_PATH)
 
-    features,labels = add_negative(features,user_negative,labels,num_neg,is_training)
+    features, labels = add_negative(features, user_negative, labels, num_neg, is_training)
 
     data_dict = dict([('user', features['user']),
                       ('item', features['item']), ('label', labels)])
@@ -126,8 +123,7 @@ def dump_data(features,labels,user_negative,num_neg,is_training):
         np.save(os.path.join(DATA_PATH, 'test_data.npy'), data_dict)
 
 
-
-def train_input_fn(features,labels,batch_size,user_negative,num_neg):
+def train_input_fn(features, labels, batch_size, user_negative, num_neg):
     data_path = os.path.join(DATA_PATH, 'train_data.npy')
     if not os.path.exists(data_path):
         dump_data(features, labels, user_negative, num_neg, True)
@@ -152,9 +148,3 @@ def eval_input_fn(features, labels, user_negative, test_neg):
     dataset = dataset.batch(test_neg + 1)
 
     return dataset
-
-
-
-
-
-

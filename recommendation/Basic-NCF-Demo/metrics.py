@@ -8,13 +8,13 @@ def mrr(gt_item, pred_items):
     else:
         return 0
 
-
+# 衡量是否存在与topk列表中
 def hit(gt_item, pred_items):
     if gt_item in pred_items:
         return 1
     return 0
 
-
+# 衡量排序
 def ndcg(gt_item, pred_items):
     if gt_item in pred_items:
         index = np.where(pred_items == gt_item)[0][0]

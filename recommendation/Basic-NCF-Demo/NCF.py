@@ -1,75 +1,63 @@
-
 import numpy as np
-import pandas as pd
 import tensorflow as tf
-
-import sys
-import metrics
 
 
 class NCF(object):
-    def __init__(self, embed_size, user_size, item_size, lr,
+    def __init__(self, embed_size, n_user, n_item, lr,
                  optim, initializer, loss_func, activation_func,
                  regularizer_rate, iterator, topk, dropout, is_training):
-        """
-        Important Arguments.
-
-        embed_size: The final embedding size for users and items.
-        optim: The optimization method chosen in this model.
-        initializer: The initialization method.
-        loss_func: Loss function, we choose the cross entropy.
-        regularizer_rate: L2 is chosen, this represents the L2 rate.
-        iterator: Input dataset.
-        topk: For evaluation, computing the topk items.
-        """
-
+        # user和item隐向量的维度大小
         self.embed_size = embed_size
-        self.user_size = user_size
-        self.item_size = item_size
+        # user个数
+        self.n_user = n_user
+        # item个数
+        self.n_item = n_item
+        # 学习率
         self.lr = lr
+        #
         self.initializer = initializer
+        # 损失函数
         self.loss_func = loss_func
+        # 激活函数
         self.activation_func = activation_func
+        # 正则化参数
         self.regularizer_rate = regularizer_rate
+        # 优化方式
         self.optim = optim
+        # topk
         self.topk = topk
         self.dropout = dropout
         self.is_training = is_training
         self.iterator = iterator
 
-
     def get_data(self):
         sample = self.iterator.get_next()
         self.user = sample['user']
         self.item = sample['item']
-        self.label = tf.cast(sample['label'],tf.float32)
-
+        self.label = tf.cast(sample['label'], tf.float32)
 
     def inference(self):
         """ Initialize important settings """
+        # 正则化
         self.regularizer = tf.contrib.layers.l2_regularizer(self.regularizer_rate)
-
-        if self.initializer == 'Normal':
+        # 初始化参数方式
+        if self.initializer == 'Normal':  # 截断的正态分布（按两倍标准差截断）
             self.initializer = tf.truncated_normal_initializer(stddev=0.01)
-        elif self.initializer == 'Xavier_Normal':
-            self.initializer = tf.contrib.layers.xavier_initializer()
-        else:
+        elif self.initializer == 'Xavier_Normal':  # 由一个均匀分布来初始化数据
+            self.initializer = tf.glorot_normal_initializer()
+        else:  # Xavier_Uniform 由一个截断的均匀分布来初始化数据
             self.initializer = tf.glorot_uniform_initializer()
-
+        # 激活函数
         if self.activation_func == 'ReLU':
             self.activation_func = tf.nn.relu
         elif self.activation_func == 'Leaky_ReLU':
             self.activation_func = tf.nn.leaky_relu
         elif self.activation_func == 'ELU':
             self.activation_func = tf.nn.elu
-
+        # 损失函数
         if self.loss_func == 'cross_entropy':
-            # self.loss_func = lambda labels, logits: -tf.reduce_sum(
-            # 		(labels * tf.log(logits) + (
-            # 		tf.ones_like(labels, dtype=tf.float32) - labels) *
-            # 		tf.log(tf.ones_like(logits, dtype=tf.float32) - logits)), 1)
             self.loss_func = tf.nn.sigmoid_cross_entropy_with_logits
-
+        # 优化方式
         if self.optim == 'SGD':
             self.optim = tf.train.GradientDescentOptimizer(self.lr,
                                                            name='SGD')
@@ -79,16 +67,15 @@ class NCF(object):
         elif self.optim == 'Adam':
             self.optim = tf.train.AdamOptimizer(self.lr, name='Adam')
 
-
     def create_model(self):
         with tf.name_scope('input'):
-            self.user_onehot = tf.one_hot(self.user,self.user_size,name='user_onehot')
-            self.item_onehot = tf.one_hot(self.item,self.item_size,name='item_onehot')
+            self.user_onehot = tf.one_hot(self.user, self.n_user, name='user_onehot')
+            self.item_onehot = tf.one_hot(self.item, self.n_item, name='item_onehot')
 
         with tf.name_scope('embed'):
-            self.user_embed_GMF = tf.layers.dense(inputs = self.user_onehot,
-                                                  units = self.embed_size,
-                                                  activation = self.activation_func,
+            self.user_embed_GMF = tf.layers.dense(inputs=self.user_onehot,
+                                                  units=self.embed_size,
+                                                  activation=self.activation_func,
                                                   kernel_initializer=self.initializer,
                                                   kernel_regularizer=self.regularizer,
                                                   name='user_embed_GMF')
@@ -113,11 +100,11 @@ class NCF(object):
                                                   kernel_regularizer=self.regularizer,
                                                   name='item_embed_MLP')
 
-
-
+        # GMF层, 把user的嵌入向量与item的嵌入向量做内积
         with tf.name_scope("GMF"):
-            self.GMF = tf.multiply(self.user_embed_GMF,self.item_embed_GMF,name='GMF')
+            self.GMF = tf.multiply(self.user_embed_GMF, self.item_embed_GMF, name='GMF')
 
+        # 3层感知器, 把user的嵌入向量和item的嵌入向量拼接再输入多层感知器
         with tf.name_scope("MLP"):
             self.interaction = tf.concat([self.user_embed_MLP, self.item_embed_MLP],
                                          axis=-1, name='interaction')
@@ -145,36 +132,33 @@ class NCF(object):
                                               kernel_regularizer=self.regularizer,
                                               name='layer3_MLP')
             self.layer3_MLP = tf.layers.dropout(self.layer3_MLP, rate=self.dropout)
-
+        # 单层感知器, 将3层感知器和GMF的输出进行拼接输入单层感知器
         with tf.name_scope('concatenation'):
-            self.concatenation = tf.concat([self.GMF,self.layer3_MLP],axis=-1,name='concatenation')
+            self.concatenation = tf.concat([self.GMF, self.layer3_MLP], axis=-1, name='concatenation')
 
-
-            self.logits = tf.layers.dense(inputs= self.concatenation,
-                                          units = 1,
+            self.logits = tf.layers.dense(inputs=self.concatenation,
+                                          units=1,
                                           activation=None,
                                           kernel_initializer=self.initializer,
                                           kernel_regularizer=self.regularizer,
                                           name='predict')
 
-            self.logits_dense = tf.reshape(self.logits,[-1])
-
+            self.logits_dense = tf.reshape(self.logits, [-1])
+        # 损失函数
         with tf.name_scope("loss"):
-
+            # 二分类问题
             self.loss = tf.reduce_mean(self.loss_func(
                 labels=self.label, logits=self.logits_dense, name='loss'))
-            # self.loss = tf.reduce_mean(self.loss_func(self.label, self.logits),
-            # 								name='loss')
 
+        # 优化
         with tf.name_scope("optimzation"):
             self.optimzer = self.optim.minimize(self.loss)
-
 
     def eval(self):
         with tf.name_scope("evaluation"):
             self.item_replica = self.item
+            # 找到输入的张量的最后的一个维度的最大的k个值和它的下标
             _, self.indice = tf.nn.top_k(tf.sigmoid(self.logits_dense), self.topk)
-
 
     def summary(self):
         """ Create summaries to write on tensorboard. """
@@ -183,9 +167,6 @@ class NCF(object):
             tf.summary.scalar('loss', self.loss)
             tf.summary.histogram('histogram loss', self.loss)
             self.summary_op = tf.summary.merge_all()
-
-
-
 
     def build(self):
         self.get_data()
@@ -200,9 +181,11 @@ class NCF(object):
         if self.is_training:
             loss, optim, summaries = session.run(
                 [self.loss, self.optimzer, self.summary_op])
+            # 记录每一步的损失
             self.writer.add_summary(summaries, global_step=step)
         else:
             indice, item = session.run([self.indice, self.item_replica])
+            # 从item中提取索引为indice的数据
             prediction = np.take(item, indice)
 
             return prediction, item

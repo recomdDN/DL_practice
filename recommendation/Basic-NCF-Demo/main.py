@@ -1,12 +1,10 @@
-import os,sys,time
+import os, sys, time
 import numpy as np
 import tensorflow as tf
 
 import NCF_input
 import NCF
 import metrics
-
-
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -20,64 +18,66 @@ tf.app.flags.DEFINE_string('optim', 'Adam', 'the optimization method.')
 tf.app.flags.DEFINE_string('initializer', 'Xavier', 'the initializer method.')
 tf.app.flags.DEFINE_string('loss_func', 'cross_entropy', 'the loss function.')
 tf.app.flags.DEFINE_string('activation', 'ReLU', 'the activation function.')
+
 tf.app.flags.DEFINE_string('model_dir', 'model/', 'the dir for saving model.')
 tf.app.flags.DEFINE_float('regularizer', 0.0, 'the regularizer rate.')
 tf.app.flags.DEFINE_float('lr', 0.001, 'learning rate.')
 tf.app.flags.DEFINE_float('dropout', 0.0, 'dropout rate.')
 
 
-
-def train(train_data,test_data,user_size,item_size):
+def train(train_data, test_data, n_user, n_item):
     with tf.Session() as sess:
         iterator = tf.data.Iterator.from_structure(train_data.output_types,
                                                    train_data.output_shapes)
 
-        model = NCF.NCF(FLAGS.embedding_size, user_size, item_size, FLAGS.lr,
+        model = NCF.NCF(FLAGS.embedding_size, n_user, n_item, FLAGS.lr,
                         FLAGS.optim, FLAGS.initializer, FLAGS.loss_func, FLAGS.activation,
                         FLAGS.regularizer, iterator, FLAGS.topK, FLAGS.dropout, is_training=True)
 
         model.build()
 
+        # 有参数就读取, 没有就重新训练
         ckpt = tf.train.get_checkpoint_state(FLAGS.model_dir)
-        if ckpt:
+        if ckpt and ckpt.model_checkpoint_path:
             print("Reading model parameters from %s" % ckpt.model_checkpoint_path)
+            # 加载模型参数
             model.saver.restore(sess, ckpt.model_checkpoint_path)
         else:
             print("Creating model with fresh parameters.")
             sess.run(tf.global_variables_initializer())
 
-
         count = 0
         for epoch in range(FLAGS.epochs):
+            # 训练集的迭代器
             sess.run(model.iterator.make_initializer(train_data))
             model.is_training = True
             model.get_data()
             start_time = time.time()
 
             try:
-                while True:
+                while True:  # 直到生成器没数据, 也就是所有训练数据遍历一次
                     model.step(sess, count)
                     count += 1
             except tf.errors.OutOfRangeError:
+                # 打印训练一轮的时间
                 print("Epoch %d training " % epoch + "Took: " + time.strftime("%H: %M: %S",
                                                                               time.gmtime(time.time() - start_time)))
-
-
-
+            # 测试集的迭代器
             sess.run(model.iterator.make_initializer(test_data))
             model.is_training = False
             model.get_data()
             start_time = time.time()
-            HR,MRR,NDCG = [],[],[]
+            HR, MRR, NDCG = [], [], []
             prediction, label = model.step(sess, None)
             try:
-                while True:
+                while True:  # 直到生成器没数据, 也就是所有测试数据遍历一次
                     prediction, label = model.step(sess, None)
 
                     label = int(label[0])
                     HR.append(metrics.hit(label, prediction))
                     MRR.append(metrics.mrr(label, prediction))
                     NDCG.append(metrics.ndcg(label, prediction))
+            # 评估值取均值
             except tf.errors.OutOfRangeError:
                 hr = np.array(HR).mean()
                 mrr = np.array(MRR).mean()
@@ -86,7 +86,7 @@ def train(train_data,test_data,user_size,item_size):
                                                                               time.gmtime(time.time() - start_time)))
                 print("HR is %.3f, MRR is %.3f, NDCG is %.3f" % (hr, mrr, ndcg))
 
-        ################################## SAVE MODEL ################################
+        # 保存模型参数
         checkpoint_path = os.path.join(FLAGS.model_dir, "NCF.ckpt")
         model.saver.save(sess, checkpoint_path)
 
@@ -94,18 +94,19 @@ def train(train_data,test_data,user_size,item_size):
 def main():
     ((train_features, train_labels),
      (test_features, test_labels),
-     (user_size, item_size),
+     (n_user, n_item),
      (user_bought, user_negative)) = NCF_input.load_data()
 
     print(train_features[:10])
-
-    train_data = NCF_input.train_input_fn(train_features,train_labels,FLAGS.batch_size,user_negative,FLAGS.negative_num)
-    # print(train_data)
-
+    # 训练数据
+    train_data = NCF_input.train_input_fn(train_features, train_labels, FLAGS.batch_size, user_negative,
+                                          FLAGS.negative_num)
+    # 测试数据
     test_data = NCF_input.eval_input_fn(test_features, test_labels,
                                         user_negative, FLAGS.test_neg)
+    # 训练模型
+    train(train_data, test_data, n_user, n_item)
 
-    train(train_data,test_data,user_size,item_size)
 
 if __name__ == '__main__':
     main()
