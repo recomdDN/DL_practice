@@ -69,10 +69,13 @@ class NCF(object):
 
     def create_model(self):
         with tf.name_scope('input'):
+            # shape = [N, 1]
             self.user_onehot = tf.one_hot(self.user, self.n_user, name='user_onehot')
+            # shape = [N, 1]
             self.item_onehot = tf.one_hot(self.item, self.n_item, name='item_onehot')
 
         with tf.name_scope('embed'):
+            # shape = [N, embed_size]
             self.user_embed_GMF = tf.layers.dense(inputs=self.user_onehot,
                                                   units=self.embed_size,
                                                   activation=self.activation_func,
@@ -86,7 +89,7 @@ class NCF(object):
                                                   kernel_initializer=self.initializer,
                                                   kernel_regularizer=self.regularizer,
                                                   name='item_embed_GMF')
-
+            # shape = [N, embed_size]
             self.user_embed_MLP = tf.layers.dense(inputs=self.user_onehot,
                                                   units=self.embed_size,
                                                   activation=self.activation_func,
@@ -100,15 +103,17 @@ class NCF(object):
                                                   kernel_regularizer=self.regularizer,
                                                   name='item_embed_MLP')
 
-        # GMF层, 把user的嵌入向量与item的嵌入向量做内积
+        # GMF层, 把user的嵌入向量与item的嵌入向量元素相乘
+        # # shape = [N, embed_size]
         with tf.name_scope("GMF"):
             self.GMF = tf.multiply(self.user_embed_GMF, self.item_embed_GMF, name='GMF')
 
         # 3层感知器, 把user的嵌入向量和item的嵌入向量拼接再输入多层感知器
         with tf.name_scope("MLP"):
+            # shape = [N, 2*embed_size]
             self.interaction = tf.concat([self.user_embed_MLP, self.item_embed_MLP],
                                          axis=-1, name='interaction')
-
+            # shape = [N, 2*embed_size]
             self.layer1_MLP = tf.layers.dense(inputs=self.interaction,
                                               units=self.embed_size * 2,
                                               activation=self.activation_func,
@@ -116,7 +121,7 @@ class NCF(object):
                                               kernel_regularizer=self.regularizer,
                                               name='layer1_MLP')
             self.layer1_MLP = tf.layers.dropout(self.layer1_MLP, rate=self.dropout)
-
+            # shape = [N, embed_size]
             self.layer2_MLP = tf.layers.dense(inputs=self.layer1_MLP,
                                               units=self.embed_size,
                                               activation=self.activation_func,
@@ -124,7 +129,7 @@ class NCF(object):
                                               kernel_regularizer=self.regularizer,
                                               name='layer2_MLP')
             self.layer2_MLP = tf.layers.dropout(self.layer2_MLP, rate=self.dropout)
-
+            # shape = [N, embed_size//2]
             self.layer3_MLP = tf.layers.dense(inputs=self.layer2_MLP,
                                               units=self.embed_size // 2,
                                               activation=self.activation_func,
@@ -134,8 +139,9 @@ class NCF(object):
             self.layer3_MLP = tf.layers.dropout(self.layer3_MLP, rate=self.dropout)
         # 单层感知器, 将3层感知器和GMF的输出进行拼接输入单层感知器
         with tf.name_scope('concatenation'):
+            # shape = [N, embed_size + embed_size//2]
             self.concatenation = tf.concat([self.GMF, self.layer3_MLP], axis=-1, name='concatenation')
-
+            # shape = [N, 1]
             self.logits = tf.layers.dense(inputs=self.concatenation,
                                           units=1,
                                           activation=None,
@@ -157,7 +163,7 @@ class NCF(object):
     def eval(self):
         with tf.name_scope("evaluation"):
             self.item_replica = self.item
-            # 找到输入的张量的最后的一个维度的最大的k个值和它的下标
+            # 找到当前批量数据预测值前k大的概率值和item索引
             _, self.indice = tf.nn.top_k(tf.sigmoid(self.logits_dense), self.topk)
 
     def summary(self):
@@ -184,8 +190,8 @@ class NCF(object):
             # 记录每一步的损失
             self.writer.add_summary(summaries, global_step=step)
         else:
-            indice, item = session.run([self.indice, self.item_replica])
-            # 从item中提取索引为indice的数据
-            prediction = np.take(item, indice)
+            indice, gt_item = session.run([self.indice, self.item_replica])
+            # 前k大概率值对应的item
+            pred_item = np.take(gt_item, indice)
 
-            return prediction, item
+            return pred_item, gt_item

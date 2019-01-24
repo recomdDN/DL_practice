@@ -68,15 +68,15 @@ def train(train_data, test_data, n_user, n_item):
             model.get_data()
             start_time = time.time()
             HR, MRR, NDCG = [], [], []
-            prediction, label = model.step(sess, None)
+            pred_item, gt_item = model.step(sess, None)
             try:
                 while True:  # 直到生成器没数据, 也就是所有测试数据遍历一次
-                    prediction, label = model.step(sess, None)
+                    pred_item, gt_item = model.step(sess, None)
 
-                    label = int(label[0])
-                    HR.append(metrics.hit(label, prediction))
-                    MRR.append(metrics.mrr(label, prediction))
-                    NDCG.append(metrics.ndcg(label, prediction))
+                    gt_item = int(gt_item[0])
+                    HR.append(metrics.hit(gt_item, pred_item))
+                    MRR.append(metrics.mrr(gt_item, pred_item))
+                    NDCG.append(metrics.ndcg(gt_item, pred_item))
             # 评估值取均值
             except tf.errors.OutOfRangeError:
                 hr = np.array(HR).mean()
@@ -95,15 +95,15 @@ def main():
     ((train_features, train_labels),
      (test_features, test_labels),
      (n_user, n_item),
-     (user_bought, user_negative)) = NCF_input.load_data()
+     (user_bought, user_unbought)) = NCF_input.load_data()
 
     print(train_features[:10])
     # 训练数据
-    train_data = NCF_input.train_input_fn(train_features, train_labels, FLAGS.batch_size, user_negative,
+    train_data = NCF_input.train_input_fn(train_features, train_labels, FLAGS.batch_size, user_unbought,
                                           FLAGS.negative_num)
     # 测试数据
     test_data = NCF_input.eval_input_fn(test_features, test_labels,
-                                        user_negative, FLAGS.test_neg)
+                                        user_unbought, FLAGS.test_neg)
     # 训练模型
     train(train_data, test_data, n_user, n_item)
 
