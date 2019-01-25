@@ -10,7 +10,7 @@ FLAGS = tf.app.flags.FLAGS
 
 tf.app.flags.DEFINE_integer('batch_size', 128, 'size of mini-batch.')
 tf.app.flags.DEFINE_integer('negative_num', 4, 'number of negative samples.')
-tf.app.flags.DEFINE_integer('test_neg', 99, 'number of negative samples for test.')
+tf.app.flags.DEFINE_integer('test_neg', 99, 'number of negative item for each user.')
 tf.app.flags.DEFINE_integer('embedding_size', 16, 'the size for embedding user and item.')
 tf.app.flags.DEFINE_integer('epochs', 20, 'the number of epochs.')
 tf.app.flags.DEFINE_integer('topK', 10, 'topk for evaluation.')
@@ -47,6 +47,7 @@ def train(train_data, test_data, n_user, n_item):
             sess.run(tf.global_variables_initializer())
 
         count = 0
+        # 在训练集上训练epochs轮
         for epoch in range(FLAGS.epochs):
             # 训练集的迭代器
             sess.run(model.iterator.make_initializer(train_data))
@@ -56,6 +57,7 @@ def train(train_data, test_data, n_user, n_item):
 
             try:
                 while True:  # 直到生成器没数据, 也就是所有训练数据遍历一次
+
                     model.step(sess, count)
                     count += 1
             except tf.errors.OutOfRangeError:
@@ -72,7 +74,7 @@ def train(train_data, test_data, n_user, n_item):
             try:
                 while True:  # 直到生成器没数据, 也就是所有测试数据遍历一次
                     pred_item, gt_item = model.step(sess, None)
-
+                    # 对于测试集每同一批量数据的item都一样, 所以只取一个
                     gt_item = int(gt_item[0])
                     HR.append(metrics.hit(gt_item, pred_item))
                     MRR.append(metrics.mrr(gt_item, pred_item))

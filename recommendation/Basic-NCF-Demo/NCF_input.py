@@ -78,7 +78,7 @@ def load_data():
 
 def add_negative(features, user_unbought, labels, neg_num, is_training):
     feature_user, feature_item, labels_add, feature_dict = [], [], [], {}
-    # 1个正样本对应n个负样本
+    # 1个正样本对应neg_num个负样本
     for i in range(len(features)):
         user = features['user'][i]
         item = features['item'][i]
@@ -87,7 +87,9 @@ def add_negative(features, user_unbought, labels, neg_num, is_training):
         feature_user.append(user)
         feature_item.append(item)
         labels_add.append(label)
-        # 负样本下采样
+        # 负样本下采样, 这里有两个作用
+        # 训练集：正负样本比例为1：n
+        # 测试集：只要批量大小为1+n就可以产生1个已交互item和n个未交互item的数据
         neg_samples = np.random.choice(user_unbought[user], size=neg_num, replace=False).tolist()
 
         if is_training:
@@ -125,7 +127,7 @@ def dump_data(features, labels, user_unbought, num_neg, is_training):
     else:
         np.save(os.path.join(DATA_PATH, 'test_data.npy'), data_dict)
 
-
+# 训练集正负样本1：neg_num
 def train_input_fn(features, labels, batch_size, user_unbought, num_neg):
     """ 构建训练集, 返回类型为tf.iterator"""
     data_path = os.path.join(DATA_PATH, 'train_data.npy')
@@ -138,7 +140,7 @@ def train_input_fn(features, labels, batch_size, user_unbought, num_neg):
     dataset = dataset.shuffle(100000).batch(batch_size)
     return dataset
 
-
+# 测试集已交互item：未交互item = 1：n
 def eval_input_fn(features, labels, user_unbought, test_neg):
     """ 构建测试集, 返回类型为tf.iterator"""
     data_path = os.path.join(DATA_PATH, 'test_data.npy')
@@ -148,6 +150,9 @@ def eval_input_fn(features, labels, user_unbought, test_neg):
     data = np.load(data_path).item()
     print("Loading testing data finished!")
     dataset = tf.data.Dataset.from_tensor_slices(data)
+    # 每批量test_neg+1数据, 测试集中每个user只对应一个item对应这里的1
+    # test_neg对应的是从这个user未交互的item随机抽取test_neg个item
+    # 每次测试的时候都是拿某个user最后一次交互的item和test_neg个为交互的item去测试
     dataset = dataset.batch(test_neg + 1)
 
     return dataset
