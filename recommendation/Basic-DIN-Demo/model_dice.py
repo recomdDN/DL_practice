@@ -67,22 +67,18 @@ class Model(object):
         # -- fcn begin -------
         din_i = tf.concat([u_emb_i, i_emb], axis=-1)
         din_i = tf.layers.batch_normalization(inputs=din_i, name='b1')
-        d_layer_1_i = tf.layers.dense(din_i, 80, activation=tf.nn.sigmoid, name='f1')
         # if u want try dice change sigmoid to None and add dice layer like following two lines. You can also find model_dice.py in this folder.
-        # d_layer_1_i = tf.layers.dense(din_i, 80, activation=None, name='f1')
-        # d_layer_1_i = dice(d_layer_1_i, name='dice_1')
-        # d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=None, name='f2')
-        d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=tf.nn.sigmoid, name='f2')
-        # d_layer_2_i = dice(d_layer_2_i, name='dice_2')
+        d_layer_1_i = tf.layers.dense(din_i, 80, activation=None, name='f1')
+        d_layer_1_i = dice(d_layer_1_i, name='dice_1')
+        d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=None, name='f2')
+        d_layer_2_i = dice(d_layer_2_i, name='dice_2')
         d_layer_3_i = tf.layers.dense(d_layer_2_i, 1, activation=None, name='f3')
         din_j = tf.concat([u_emb_j, j_emb], axis=-1)
         din_j = tf.layers.batch_normalization(inputs=din_j, name='b1', reuse=True)
-        d_layer_1_j = tf.layers.dense(din_j, 80, activation=tf.nn.sigmoid, name='f1', reuse=True)
-        # d_layer_1_j = tf.layers.dense(din_j, 80, activation=None, name='f1', reuse=True)
-        # d_layer_1_j = dice(d_layer_1_j, name='dice_1')
-        d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=tf.nn.sigmoid, name='f2', reuse=True)
-        # d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=None, name='f2', reuse=True)
-        # d_layer_2_j = dice(d_layer_2_j, name='dice_2')
+        d_layer_1_j = tf.layers.dense(din_j, 80, activation=None, name='f1', reuse=True)
+        d_layer_1_j = dice(d_layer_1_j, name='dice_1')
+        d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=None, name='f2', reuse=True)
+        d_layer_2_j = dice(d_layer_2_j, name='dice_2')
         d_layer_3_j = tf.layers.dense(d_layer_2_j, 1, activation=None, name='f3', reuse=True)
         d_layer_3_i = tf.reshape(d_layer_3_i, [-1])
         d_layer_3_j = tf.reshape(d_layer_3_j, [-1])
@@ -145,7 +141,6 @@ class Model(object):
         self.opt = tf.train.GradientDescentOptimizer(learning_rate=self.lr)
         gradients = tf.gradients(self.loss, trainable_params)
         clip_gradients, _ = tf.clip_by_global_norm(gradients, 5)
-        # 这里会自动完成global_step自动加1操作
         self.train_op = self.opt.apply_gradients(
             zip(clip_gradients, trainable_params), global_step=self.global_step)
 

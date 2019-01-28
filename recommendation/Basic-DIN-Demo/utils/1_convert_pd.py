@@ -12,6 +12,8 @@ def to_df(file_path):
     return df
 
 reviews_df = to_df('../raw_data/reviews_Electronics_5.json')
+
+# 利用pickle序列化Dataframe对象, pickle可以序列化对象, json只可以序列化基本的数据类型
 with open('../raw_data/reviews.pkl', 'wb') as f:
   pickle.dump(reviews_df, f, pickle.HIGHEST_PROTOCOL)
 
