@@ -29,22 +29,15 @@ best_auc = 0.0
 
 
 def calc_auc(raw_arr):
-    """Summary
-
-    Args:
-        raw_arr (TYPE): Description
-
-    Returns:
-        TYPE: Description
-    """
-    # sort by pred value, from small to big
+    # 按概率从小到大排序
     arr = sorted(raw_arr, key=lambda d: d[2])
 
     auc = 0.0
     fp1, tp1, fp2, tp2 = 0.0, 0.0, 0.0, 0.0
     for record in arr:
-        fp2 += record[0]  # noclick
-        tp2 += record[1]  # click
+        fp2 += record[0]  # 当前总未点击次数
+        tp2 += record[1]  # 当前总点击次数
+        # 未点击次数增加量 * (上一总点击次数 + 当前总点击次数)
         auc += (fp2 - fp1) * (tp2 + tp1)
         fp1, tp1 = fp2, tp2
 
@@ -82,8 +75,9 @@ def _eval(sess, model):
         auc_, score_ = model.eval(sess, uij)
         score_arr += _auc_arr(score_)
         auc_sum += auc_ * len(uij[0])
-    # 整个测试集的平均AUC
+    # 平均用户AUC
     test_gauc = auc_sum / len(test_set)
+    # 整个测试集的AUC
     Auc = calc_auc(score_arr)
     global best_auc
     if best_auc < test_gauc:

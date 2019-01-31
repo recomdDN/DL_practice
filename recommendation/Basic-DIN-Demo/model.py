@@ -137,14 +137,18 @@ class Model(object):
         self.logits_sub = tf.reshape(self.logits_sub, [-1, predict_ads_num, 1])
         # -- fcn end -------
 
-        # 评价指标1
+        # 评价指标1 用户AUC
+        # 简单来说其实就是基于同一用户随机抽出一对样本（一个正样本，一个负样本）
+        # ，然后用训练得到的分类器来对这两个样本进行预测，预测得到正样本的概率大于负样本概率的概率
         self.mf_auc = tf.reduce_mean(tf.to_float(x > 0))
         # 概率值
         self.score_i = tf.sigmoid(i_b + d_layer_3_i)
         self.score_j = tf.sigmoid(j_b + d_layer_3_j)
         self.score_i = tf.reshape(self.score_i, [-1, 1])
         self.score_j = tf.reshape(self.score_j, [-1, 1])
+
         # 评价指标2 [predict_batch_size, 2]
+        # 用来计算整个数据集的AUC，抽取一对样本的时候没有基于同一用户
         self.p_and_n = tf.concat([self.score_i, self.score_j], axis=-1)
 
         # 当前训练步数
