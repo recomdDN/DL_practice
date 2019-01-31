@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 import sys
 from input import DataInput, DataInputTest
-from model import Model
+from model_dice import Model
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 random.seed(1234)
@@ -78,9 +78,11 @@ def _eval(sess, model):
     auc_sum = 0.0
     score_arr = []
     for _, uij in DataInputTest(test_set, test_batch_size):
+        # 每一batch的平均AUC, score_p_and_n
         auc_, score_ = model.eval(sess, uij)
         score_arr += _auc_arr(score_)
         auc_sum += auc_ * len(uij[0])
+    # 整个测试集的平均AUC
     test_gauc = auc_sum / len(test_set)
     Auc = calc_auc(score_arr)
     global best_auc
@@ -116,7 +118,7 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
     start_time = time.time()
 
     # 训练50轮
-    for _ in range(50):
+    for _ in range(10):
 
         random.shuffle(train_set)
 
@@ -125,7 +127,7 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         for _, uij in DataInput(train_set, train_batch_size):
             loss = model.train(sess, uij, lr)
             loss_sum += loss
-
+            # 每1000batch数据, 做一次模型评估
             if model.global_step.eval() % 1000 == 0:
                 test_gauc, Auc = _eval(sess, model)
                 print('Epoch %d Global_step %d\tTrain_loss: %.4f\tEval_GAUC: %.4f\tEval_AUC: %.4f' %
@@ -133,13 +135,14 @@ with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
                        loss_sum / 1000, test_gauc, Auc))
                 sys.stdout.flush()
                 loss_sum = 0.0
-
+            # 学习率调整
             if model.global_step.eval() % 336000 == 0:
                 lr = 0.1
 
         print('Epoch %d DONE\tCost time: %.2f' %
               (model.global_epoch_step.eval(), time.time() - start_time))
         sys.stdout.flush()
+        # global_epoch加1
         model.global_epoch_step_op.eval()
 
     print('best test_gauc:', best_auc)

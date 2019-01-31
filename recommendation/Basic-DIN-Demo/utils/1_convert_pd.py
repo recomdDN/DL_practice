@@ -18,6 +18,7 @@ with open('../raw_data/reviews.pkl', 'wb') as f:
   pickle.dump(reviews_df, f, pickle.HIGHEST_PROTOCOL)
 
 meta_df = to_df('../raw_data/meta_Electronics.json')
+# 只提取评论数据中出现过的商品
 meta_df = meta_df[meta_df['asin'].isin(reviews_df['asin'].unique())]
 meta_df = meta_df.reset_index(drop=True)
 with open('../raw_data/meta.pkl', 'wb') as f:

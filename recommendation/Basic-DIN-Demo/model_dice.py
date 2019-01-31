@@ -67,7 +67,7 @@ class Model(object):
         # -- fcn begin -------
         din_i = tf.concat([u_emb_i, i_emb], axis=-1)
         din_i = tf.layers.batch_normalization(inputs=din_i, name='b1')
-        # if u want try dice change sigmoid to None and add dice layer like following two lines. You can also find model_dice.py in this folder.
+        # 如果需要用dice，只需要把activation设置为None，再增加一层dice就可以
         d_layer_1_i = tf.layers.dense(din_i, 80, activation=None, name='f1')
         d_layer_1_i = dice(d_layer_1_i, name='dice_1')
         d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=None, name='f2')
