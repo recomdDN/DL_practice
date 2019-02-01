@@ -26,7 +26,27 @@ def prepare_data(input, target, maxlen = None, return_neg = False):
         new_noclk_seqs_mid = []
         new_noclk_seqs_cat = []
         new_lengths_x = []
+        for l_x, inp in zip(lengths_x, input):
+            if l_x > maxlen:
+                new_seqs_mid.append(inp[3][l_x - maxlen:])
+                new_seqs_cat.append(inp[4][l_x - maxlen:])
+                new_noclk_seqs_mid.append(inp[5][l_x - maxlen:])
+                new_noclk_seqs_cat.append(inp[6][l_x - maxlen:])
+                new_lengths_x.append(maxlen)
+            else:
+                new_seqs_mid.append(inp[3])
+                new_seqs_cat.append(inp[4])
+                new_noclk_seqs_mid.append(inp[5])
+                new_noclk_seqs_cat.append(inp[6])
+                new_lengths_x.append(l_x)
+        lengths_x = new_lengths_x
+        seqs_mid = new_seqs_mid
+        seqs_cat = new_seqs_cat
+        noclk_seqs_mid = new_noclk_seqs_mid
+        noclk_seqs_cat = new_noclk_seqs_cat
 
+        if len(lengths_x) < 1:
+            return None, None, None, None
 
     n_samples = len(seqs_mid)
     maxlen_x = numpy.max(lengths_x)
