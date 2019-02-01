@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="..">
+      <change afterPath="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/esmm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/xlearning.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,62 +91,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model_dice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -207,9 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/algo/ppo.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/network_models/policy_net.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/sample_trajectory.py" />
         <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/network_models/discriminator.py" />
         <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/run_gail.py" />
         <option value="$PROJECT_DIR$/RL/Basic-GAIL-Demo/test_policy.py" />
@@ -258,6 +200,9 @@
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/esmm.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/xlearning.sh" />
+        <option value="$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/readme.md" />
       </list>
     </option>
   </component>
@@ -291,21 +236,7 @@
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-DIN-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-DIN-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="raw_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-DIN-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic_ESSM_Demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -513,7 +444,7 @@
       <workItem from="1548050814013" duration="62947000" />
       <workItem from="1548296182089" duration="35233000" />
       <workItem from="1548635617415" duration="45729000" />
-      <workItem from="1548808447540" duration="38416000" />
+      <workItem from="1548808447540" duration="40055000" />
     </task>
     <task id="LOCAL-00001" summary="修改稀疏矩阵的结构">
       <created>1547623386428</created>
@@ -662,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548927185908</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="..">
+      <created>1548989460208</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548989460208</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279413000" />
+    <option name="totallyTimeSpent" value="281052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +617,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1569" height="1391" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1998685" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -762,27 +699,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/data/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1151">
-          <caret line="7246" column="56" lean-forward="true" selection-start-line="7246" selection-start-column="56" selection-end-line="7246" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/data/ratings.dat">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-1040099">
-          <caret line="181" column="21" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/numpy/lib/type_check.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -943,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="310">
-            <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/raw_data/reviews_Electronics_5.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="27699">
@@ -1071,30 +977,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model_dice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/layers/normalization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="210" column="61" lean-forward="true" selection-start-line="210" selection-start-column="61" selection-end-line="210" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,10 +998,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model_dice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/esmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="320" lean-forward="true" selection-start-line="320" selection-end-line="320" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/xlearning.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+        <state relative-caret-position="420">
+          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -1125,14 +1065,17 @@
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="441">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
