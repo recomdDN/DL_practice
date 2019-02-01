@@ -79,15 +79,15 @@ class Model(object):
         # 3层全连接层(80, 40, 1) 输出shape = [batch_size, 1]
         din_i = tf.concat([h_emb_i, i_emb], axis=-1)
         din_i = tf.layers.batch_normalization(inputs=din_i, name='b1')
-        d_layer_1_i = tf.layers.dense(din_i, 80, activation=tf.nn.sigmoid, name='f1')
-        d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=tf.nn.sigmoid, name='f2')
+        d_layer_1_i = tf.layers.dense(din_i, 80, activation=tf.nn.relu, name='f1')
+        d_layer_2_i = tf.layers.dense(d_layer_1_i, 40, activation=tf.nn.relu, name='f2')
         d_layer_3_i = tf.layers.dense(d_layer_2_i, 1, activation=None, name='f3')
         # [batch_size, 2*hidden_units]
         din_j = tf.concat([h_emb_j, j_emb], axis=-1)
         din_j = tf.layers.batch_normalization(inputs=din_j, name='b1', reuse=True)
         # 预测用(80, 40, 1) 输出shape = [batch_size, 1]
-        d_layer_1_j = tf.layers.dense(din_j, 80, activation=tf.nn.sigmoid, name='f1', reuse=True)
-        d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=tf.nn.sigmoid, name='f2', reuse=True)
+        d_layer_1_j = tf.layers.dense(din_j, 80, activation=tf.nn.relu, name='f1', reuse=True)
+        d_layer_2_j = tf.layers.dense(d_layer_1_j, 40, activation=tf.nn.relu, name='f2', reuse=True)
         d_layer_3_j = tf.layers.dense(d_layer_2_j, 1, activation=None, name='f3', reuse=True)
         # [batch_size,]
         d_layer_3_i = tf.reshape(d_layer_3_i, [-1])
@@ -96,7 +96,6 @@ class Model(object):
         x = i_b + d_layer_3_i - d_layer_3_j - j_b
         # wx + b [batch_size, 1]
         self.logits = i_b + d_layer_3_i
-
         # 预测备选商品
         # 所有商品的ID嵌入向量和类别嵌入向量 [item_counts, hidden_units]
         item_emb_all = tf.concat([
@@ -126,8 +125,8 @@ class Model(object):
         # [predict_batch_size * predict_ads_num, 2*hidden_units]
         din_sub = tf.concat([u_emb_sub, item_emb_sub], axis=-1)
         din_sub = tf.layers.batch_normalization(inputs=din_sub, name='b1', reuse=True)
-        d_layer_1_sub = tf.layers.dense(din_sub, 80, activation=tf.nn.sigmoid, name='f1', reuse=True)
-        d_layer_2_sub = tf.layers.dense(d_layer_1_sub, 40, activation=tf.nn.sigmoid, name='f2', reuse=True)
+        d_layer_1_sub = tf.layers.dense(din_sub, 80, activation=tf.nn.relu, name='f1', reuse=True)
+        d_layer_2_sub = tf.layers.dense(d_layer_1_sub, 40, activation=tf.nn.relu, name='f2', reuse=True)
         d_layer_3_sub = tf.layers.dense(d_layer_2_sub, 1, activation=None, name='f3', reuse=True)
         # [predict_batch_size, predict_ads_num]
         d_layer_3_sub = tf.reshape(d_layer_3_sub, [-1, predict_ads_num])

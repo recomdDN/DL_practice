@@ -1,6 +1,6 @@
 import numpy as np
 
-
+# 数据迭代器
 class DataInput:
     def __init__(self, data, batch_size):
 
