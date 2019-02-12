@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="..">
-      <change afterPath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/prepare_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/GruCell.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/Dice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/data_iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/generate_voc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/local_aggretor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/process_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/rnn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/shuffle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/split_by_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/data_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/data_iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +32,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$mlr.coverage" NAME="mlr Coverage Results" MODIFIED="1529722291768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
     <SUITE FILE_PATH="coverage/DL_practice$build_dataset.coverage" NAME="build_dataset Coverage Results" MODIFIED="1548655521390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DIN-Demo" />
     <SUITE FILE_PATH="coverage/DL_practice$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1549007470954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-xDeepFM-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1549933051721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$news_preprocess.coverage" NAME="news_preprocess Coverage Results" MODIFIED="1541602017949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$multi_task_joint_training.coverage" NAME="multi-task-joint-training Coverage Results" MODIFIED="1533110252951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/multi-task-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$run_ppo.coverage" NAME="run_ppo Coverage Results" MODIFIED="1546172513596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
@@ -74,6 +61,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$netease.coverage" NAME="netease Coverage Results" MODIFIED="1534173544289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1541647709452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$data.coverage" NAME="data Coverage Results" MODIFIED="1529689500332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$Nosetests_in_train_py__2_.coverage" NAME="Nosetests in train.py (2) Coverage Results" MODIFIED="1549932052425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$compareAC.coverage" NAME="compareAC Coverage Results" MODIFIED="1543484381532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$prepare_data_for_transx.coverage" NAME="prepare_data_for_transx Coverage Results" MODIFIED="1541603869565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
     <SUITE FILE_PATH="coverage/DL_practice$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1548144440731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-NFM-Demo" />
@@ -110,7 +98,65 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="244" column="14" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/rnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="640" column="29" lean-forward="true" selection-start-line="640" selection-start-column="29" selection-end-line="640" selection-end-column="29" />
+              <folding>
+                <element signature="e#852#890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/data_iterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,9 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>target</find>
-      <find>num_leaf</find>
-      <find>input_x_size</find>
       <find>batch_size</find>
       <find>train_result</find>
       <find>NUM_SPLITS</find>
@@ -151,6 +194,9 @@
       <find>xdeepfm/data</find>
       <find>_like_rnncell</find>
       <find>like</find>
+      <find>rank</find>
+      <find>dynamic_rnn</find>
+      <find>att_scores</find>
     </findStrings>
     <replaceStrings>
       <replace>n_numeric_feature</replace>
@@ -171,16 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/metrics.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/config.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DataLoader.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/main.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/DataReader.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/config.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/PNN.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/DataReader.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/main.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/NFM.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-PNN-Demo/main.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/DataReader.py" />
@@ -222,6 +258,16 @@
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/prepare_data.sh" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/utils.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/rnn.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/log.txt" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/rnn2.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/Dice.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/generate_voc.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/local_aggretor.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/utils.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/data_iterator.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/model.py" />
       </list>
     </option>
   </component>
@@ -238,7 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,10 +302,18 @@
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
               <item name="Basic-DIEN-Demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-DIEN-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,19 +324,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/raw_data" />
+      <recent name="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data" />
+      <recent name="$PROJECT_DIR$/CV" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
       <recent name="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data/de-en" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/raw_data" />
-      <recent name="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data" />
-      <recent name="$PROJECT_DIR$/CV" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train (1)">
+  <component name="RunManager" selected="Python.train (2)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,28 +368,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow1.2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-xDeepFM-Demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-xDeepFM-Demo/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -365,20 +396,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,7 +415,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in train.py (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,7 +431,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,20 +447,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests in train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.train" />
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.train (1)" />
-      <item itemvalue="Python tests.Nosetests in train.py" />
-      <item itemvalue="Python tests.Nosetests in train.py (1)" />
+      <item itemvalue="Python.train (2)" />
+      <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" />
+      <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" />
+      <item itemvalue="Python tests.Nosetests in train.py (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train (2)" />
+        <item itemvalue="Python tests.Nosetests in train.py (2)" />
         <item itemvalue="Python.train (1)" />
-        <item itemvalue="Python tests.Nosetests in train.py" />
-        <item itemvalue="Python tests.Nosetests in train.py (1)" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" />
+        <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +497,8 @@
       <workItem from="1548635617415" duration="45729000" />
       <workItem from="1548808447540" duration="48547000" />
       <workItem from="1549007525967" duration="394000" />
-      <workItem from="1549008137228" duration="3274000" />
+      <workItem from="1549008137228" duration="5430000" />
+      <workItem from="1549931793538" duration="7975000" />
     </task>
     <task id="LOCAL-00001" summary="修改稀疏矩阵的结构">
       <created>1547623386428</created>
@@ -637,7 +682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549007072810</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="..">
+      <created>1549011523670</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1549011523670</updated>
+    </task>
+    <task id="LOCAL-00028" summary="..">
+      <created>1549011852532</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549011852532</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,9 +712,12 @@
     <history-entry file="Nosetests_in_train_py - 2019.02.01 at 15h 57m 15s.xml">
       <configuration name="Nosetests in train.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_train_py_(2) - 2019.02.12 at 08h 40m 54s.xml">
+      <configuration name="Nosetests in train.py (2)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293212000" />
+    <option name="totallyTimeSpent" value="303343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,8 +730,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1569" height="1391" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20512821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20775805" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -680,7 +743,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831088" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32831088" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33544806" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33465505" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50164366" side_tool="true" weight="0.33544806" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.23632038" />
@@ -750,136 +813,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/keras/layers/wrappers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="e#803#841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/keras/layers/wrappers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/layers/normalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="210" column="61" lean-forward="true" selection-start-line="210" selection-start-column="61" selection-end-line="210" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/log_dice.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1063">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model_dice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="441">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/xlearning.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic_ESSM_Demo/esmm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-BPR-Demo/BPR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/utils/util.py" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIN-Demo/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="299" column="34" selection-start-line="299" selection-start-column="34" selection-end-line="299" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/IO/base_cache.py" />
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/IO/iterator.py" />
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/IO/ffm_cache.py" />
@@ -932,24 +865,8 @@
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-xDeepFM-Demo/config/network.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/data_iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2646">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3393">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/data_iterator.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py" />
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-xDeepFM-Demo/config/exDeepFM.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -957,19 +874,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="135" column="28" lean-forward="true" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/train.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
@@ -1010,71 +916,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/local_aggretor.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/process_data.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/utils.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/rnn.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/process_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="1590" lean-forward="true" selection-start-line="1590" selection-end-line="1590" />
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/split_by_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/shuffle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="3123" column="51" lean-forward="true" selection-start-line="3123" selection-start-column="51" selection-end-line="3123" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/rnn2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="484" column="45" lean-forward="true" selection-start-line="484" selection-start-column="45" selection-end-line="484" selection-end-column="45" />
           <folding>
             <element signature="e#731#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/Dice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/local_aggretor.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/local_aggretor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="189">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/prepare_data.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/rnn.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/generate_voc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        <state relative-caret-position="388">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/data_iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="640" column="29" lean-forward="true" selection-start-line="640" selection-start-column="29" selection-end-line="640" selection-end-column="29" />
           <folding>
             <element signature="e#852#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/script/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="244" column="14" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

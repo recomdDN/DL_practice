@@ -1,6 +1,6 @@
 import numpy
 import json
-import cPickle as pkl
+import pickle as pkl
 import random
 
 import gzip
@@ -104,7 +104,7 @@ class DataIterator:
         else:
             self.source.seek(0)
 
-    def next(self):
+    def __next__(self):
         if self.end_of_data:
             self.end_of_data = False
             self.reset()
@@ -114,7 +114,7 @@ class DataIterator:
         target = []
 
         if len(self.source_buffer) == 0:
-            for k_ in xrange(self.k):
+            for k_ in range(self.k):
                 ss = self.source.readline()
                 if ss == "":
                     break

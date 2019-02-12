@@ -242,14 +242,14 @@ class Model_WideDeep(Model):
                                         use_negsampling)
 
         inp = tf.concat([self.uid_batch_embedded, self.item_eb, self.item_his_eb_sum], 1)
-        # Fully connected layer
+        # 全链接层
         bn1 = tf.layers.batch_normalization(inputs=inp, name='bn1')
         dnn1 = tf.layers.dense(bn1, 200, activation=None, name='f1')
         dnn1 = prelu(dnn1, 'p1')
         dnn2 = tf.layers.dense(dnn1, 80, activation=None, name='f2')
         dnn2 = prelu(dnn2, 'p2')
         dnn3 = tf.layers.dense(dnn2, 2, activation=None, name='f3')
-        d_layer_wide = tf.concat([tf.concat([self.item_eb,self.item_his_eb_sum], axis=-1),
+        d_layer_wide = tf.concat([tf.concat([self.item_eb, self.item_his_eb_sum], axis=-1),
                                 self.item_eb * self.item_his_eb_sum], axis=-1)
         d_layer_wide = tf.layers.dense(d_layer_wide, 2, activation=None, name='f_fm')
         self.y_hat = tf.nn.softmax(dnn3 + d_layer_wide)

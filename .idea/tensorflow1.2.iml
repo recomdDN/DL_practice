@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DIEN-Demo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DIEN-Demo/script" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (tensorflow)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (tensorflow-1.4)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
