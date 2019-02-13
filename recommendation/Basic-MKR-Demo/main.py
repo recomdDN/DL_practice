@@ -1,7 +1,7 @@
 import argparse
 import numpy as np
-from data_loader import load_data
-from train import train
+from src.data_loader import load_data
+from src.train import train
 
 np.random.seed(555)
 

@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from data_loader import loadDataset,getBatches, sentence2enco
+from src.data_loader import loadDataset,getBatches
 from model import Seq2SeqModel
 from tqdm import tqdm
 import math

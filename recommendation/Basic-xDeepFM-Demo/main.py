@@ -1,8 +1,7 @@
 """This script parse and run train function"""
-import train
+from src import train
 import utils.util as util
 import tensorflow as tf
-import sys
 from utils.log import Log
 
 #yaml = sys.argv[1]
