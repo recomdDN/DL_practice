@@ -15,7 +15,7 @@ parser.add_argument('--filter_sizes', type=int, default=[1, 2], nargs='+',
 parser.add_argument('--l2_weight', type=float, default=0.01, help='weight of l2 regularization')
 parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
 parser.add_argument('--batch_size', type=int, default=128, help='number of samples in one batch')
-parser.add_argument('--n_epochs', type=int, default=10, help='number of training epochs')
+parser.add_argument('--n_epochs', type=int, default=5000, help='number of training epochs')
 parser.add_argument('--KGE', type=str, default='TransE',
                     help='knowledge graph embedding method, please ensure that the specified input file exists')
 parser.add_argument('--entity_dim', type=int, default=50,

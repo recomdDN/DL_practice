@@ -19,7 +19,7 @@ corpus = []
 
 def count_word_and_entity_freq(files):
     """
-    Count the frequency of words and entities in news titles in the training and test files
+    计算训练文件和测试文件中单词和命名实体出现的频率
     :param files: [training_file, test_file]
     :return: None
     """
@@ -51,7 +51,7 @@ def count_word_and_entity_freq(files):
 
 def construct_word2id_and_entity2id():
     """
-    Allocate each valid word and entity a unique index (start from 1)
+    将单词和命名实体与ID唯一对应
     :return: None
     """
     cnt = 1  # 0 is for dummy word

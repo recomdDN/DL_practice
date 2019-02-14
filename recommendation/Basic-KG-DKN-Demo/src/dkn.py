@@ -12,11 +12,11 @@ class DKN(object):
 
     def _build_inputs(self, args):
         with tf.name_scope('input'):
-            # title词汇编号
+            # 标题中词汇的编号
             self.clicked_words = tf.placeholder(dtype=tf.int32,
                                                 shape=[None, args.max_click_history, args.max_title_length],
                                                 name='clicked_words')
-            # title命名实体编号
+            # 标题中命名实体的编号
             self.clicked_entities = tf.placeholder(dtype=tf.int32,
                                                    shape=[None, args.max_click_history, args.max_title_length],
                                                    name='clicked_entities')
