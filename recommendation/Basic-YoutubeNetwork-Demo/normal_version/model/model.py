@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+import numpy as np
 
 class Model(object):
     def __init__(self, args):
@@ -31,7 +31,7 @@ class Model(object):
         self.sl = tf.placeholder(tf.int32, [None, ])
         # 最后一次点击商品ID[batch_size, 1]
         self.last_click = tf.placeholder(tf.int32, [None, 1])
-        # 包含正样本和n个负样本 [batch_size, sub_sample_count]
+        # 包含正样本和n个负样本, 用于softmax计算loss [batch_size, sub_sample_count]
         self.sub_sample = tf.placeholder(tf.int32, [None, None])
         # label one-hot[batch_size, class_num]
         self.y = tf.placeholder(tf.float32, [None, None])
@@ -76,7 +76,7 @@ class Model(object):
         # 除以相应历史点击商品个数[batch_size, 3 * embedding_size]
         hist = tf.div(hist, tf.cast(tf.tile(tf.expand_dims(self.sl, 1), [1, 3 * self.embedding_size]), tf.float32))
 
-        # 最后一次点击的商品ID
+        # 最后一次点击的商品ID [batch_size, 1]
         last_brand = tf.gather(brand_list, self.last_click)
         last_msort = tf.gather(msort_list, self.last_click)
         last_emb = tf.concat([tf.nn.embedding_lookup(item_emb_w, self.last_click),
@@ -122,6 +122,7 @@ class Model(object):
             self.logits = tf.squeeze(tf.matmul(user_v, sample_w), axis=1) + sample_b
 
             # Step variable
+            # global_step记录训练批次(batch), global_epoch_step记录训练轮次(epoch)
             self.global_step = tf.Variable(0, trainable=False, name='global_step')
             self.global_epoch_step = tf.Variable(0, trainable=False, name='global_epoch_step')
             self.global_epoch_step_op = tf.assign(self.global_epoch_step, self.global_epoch_step + 1)
@@ -136,7 +137,7 @@ class Model(object):
             self.train_op = self.opt.apply_gradients(
                 zip(clip_gradients, trainable_params), global_step=self.global_step)
 
-        # 测试所有商品
+        # 预测所有商品
         else:
             # 所有商品的输入嵌入 [item_count, 3*embedding_size]
             all_emb = tf.concat([item_emb_w,
@@ -148,31 +149,48 @@ class Model(object):
             self.output = tf.nn.softmax(self.logits)
 
     def train(self, sess, uij, l, keep_prob):
-        loss, _ = sess.run([self.loss, self.train_op], feed_dict={
+        loss, yhat, _ = sess.run([self.loss, self.yhat, self.train_op], feed_dict={
+            # self.u: uij[0],
             self.sub_sample: uij[1],
             self.y: uij[2],
             self.hist_click: uij[3],
             self.sl: uij[4],
+            # self.basic: uij[5],
             self.last_click: uij[6],
             self.lr: l,
             self.keep_prob: keep_prob
         })
-        return loss
+        gauc, r = Model.cal_gauc(yhat)
+        return loss, gauc, r
+
+    def eval(self, sess, uij, keep_prob):
+        loss, yhat = sess.run([self.loss, self.yhat], feed_dict={
+            # self.u: uij[0],
+            self.sub_sample: uij[1],
+            self.y: uij[2],
+            self.hist_click: uij[3],
+            self.sl: uij[4],
+            # self.basic: uij[5],
+            self.last_click: uij[6],
+            self.keep_prob: keep_prob
+        })
+        gauc, r = Model.cal_gauc(yhat)
+        return loss, gauc, r
+
+    @ staticmethod
+    def cal_gauc(y_pred):
+        r, c = np.shape(y_pred)
+        y_pos = y_pred[:, 0]
+        y_neg = y_pred[np.arange(r), np.random.randint(1, c, r)]
+        gauc = np.mean((y_pos - y_neg) > 0)
+        return gauc, r
 
     def test(self, sess, uij, keep_prob):
         return sess.run(self.output, feed_dict={
-            # self.basic: uij[3],
+            # self.u: uij[0],
             self.hist_click: uij[1],
             self.sl: uij[2],
-            self.last_click: uij[4],
-            self.keep_prob: keep_prob
-        })
-
-    def eval(self, sess, uij, keep_prob):
-        return sess.run(self.output, feed_dict={
             # self.basic: uij[3],
-            self.hist_click: uij[1],
-            self.sl: uij[2],
             self.last_click: uij[4],
             self.keep_prob: keep_prob
         })

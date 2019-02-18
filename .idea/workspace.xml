@@ -3,247 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523526908.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523527022.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523527136.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523527252.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523527416.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530263.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530409.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530500.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530509.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530517.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530526.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530538.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530548.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530556.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530568.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530579.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530589.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530598.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530606.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530618.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530632.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530643.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530653.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530660.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530668.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530675.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530686.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530695.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530703.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530710.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530718.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530726.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530736.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530744.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530751.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530759.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530766.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530774.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530781.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530789.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530798.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530808.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530820.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530827.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530835.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530844.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530852.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530860.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530868.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530875.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530883.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530891.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530898.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530906.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530913.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530921.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530930.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530938.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530945.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530953.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530961.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530968.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530976.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523530984.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537511.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537521.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537530.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537538.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537547.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537556.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537565.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537574.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537583.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537591.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537600.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537608.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537616.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537624.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537632.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537641.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537652.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537662.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537672.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537682.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537691.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537700.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537709.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537719.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537728.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537736.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537745.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537754.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537763.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537772.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537781.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537790.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537799.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537807.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537815.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537825.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537834.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537843.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537852.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537861.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537871.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537880.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537888.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537897.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537906.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537915.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1523537925.meituan-sxwdeMacBook-Pro-4.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604711.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604712.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604713.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604714.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604715.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604716.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604717.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604718.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604719.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604720.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604721.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604722.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604723.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604724.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604725.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604726.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604727.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604728.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604729.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604730.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604731.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604732.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604733.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604734.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604735.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604736.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604737.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604738.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604739.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604740.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604741.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604742.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604743.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604744.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604745.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604746.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604747.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604748.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604749.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604750.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604751.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604752.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604753.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604754.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604755.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604756.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604757.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604758.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604759.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604760.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604761.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604762.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604763.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604764.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604765.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604766.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604767.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604768.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604769.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604770.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604771.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604772.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604773.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604774.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604775.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604776.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604777.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604778.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604779.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604780.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604781.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604782.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604783.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604784.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604785.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604786.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604787.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604788.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604789.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604790.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604791.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604792.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604793.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604794.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604795.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604796.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604797.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604798.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604799.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604800.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604801.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604802.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604803.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604804.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604805.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604806.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604807.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604808.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604809.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604810.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604811.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604812.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604813.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604814.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604815.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604816.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604817.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604818.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604819.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604820.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604821.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604822.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604823.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604824.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604825.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604826.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604827.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604828.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604829.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604830.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604831.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604832.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604833.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604834.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604835.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604836.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604837.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604838.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604839.fong-peuwwa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/TFModel/FFM/events.out.tfevents.1547604840.fong-peuwwa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/build_model_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/map_item_idx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,6 +23,7 @@
     <SUITE FILE_PATH="coverage/DL_practice$train.coverage" NAME="train Coverage Results" MODIFIED="1549007502894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DIN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$run_CartPole.coverage" NAME="run_CartPole Coverage Results" MODIFIED="1543383921818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-Actor-Critic" />
     <SUITE FILE_PATH="coverage/DL_practice$lr.coverage" NAME="lr Coverage Results" MODIFIED="1548640250644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$build_model_data.coverage" NAME="build_model_data Coverage Results" MODIFIED="1550472611400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$FM_model.coverage" NAME="FM_model Coverage Results" MODIFIED="1547623068693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/recommendation-FM-demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_practice.coverage" NAME="tf_practice Coverage Results" MODIFIED="1537593989869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1545543706778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-Rainbow-Net" />
@@ -278,7 +43,7 @@
     <SUITE FILE_PATH="coverage/DL_practice$Nosetests_in_train_py__1_.coverage" NAME="Nosetests in train.py (1) Coverage Results" MODIFIED="1549007827270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1545377037092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DisRL-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_data_demo.coverage" NAME="tf_data_demo Coverage Results" MODIFIED="1528181619719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-NCF-Demo" />
-    <SUITE FILE_PATH="coverage/DL_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1549005118948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo" />
+    <SUITE FILE_PATH="coverage/DL_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1550482102514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1543484075025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$cf_gan.coverage" NAME="cf_gan Coverage Results" MODIFIED="1537765219138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$gen_model.coverage" NAME="gen_model Coverage Results" MODIFIED="1532186281780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
@@ -332,22 +97,44 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="8">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/2_remap_id.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1002">
+                    <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+                    <folding>
+                      <element signature="e#0#13#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_model_data.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="504">
+                    <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1256">
-              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="556">
+              <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -355,21 +142,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="441">
+              <caret line="21" column="100" lean-forward="true" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/serving/online.py">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/build_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-54">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -386,11 +186,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>epoch</find>
-      <find>numeric_feature_size</find>
-      <find>cate_feature_size</find>
-      <find>eval_metric</find>
-      <find>eval_metricy_deep</find>
       <find>y_deep</find>
       <find>feat_len</find>
       <find>file</find>
@@ -416,6 +211,11 @@
       <find>rnn</find>
       <find>call</find>
       <find>att_score</find>
+      <find>msort_count</find>
+      <find>cate</find>
+      <find>brand</find>
+      <find>category</find>
+      <find>categories</find>
     </findStrings>
     <replaceStrings>
       <replace>n_numeric_feature</replace>
@@ -426,6 +226,9 @@
       <replace>n_user</replace>
       <replace>n_item</replace>
       <replace>user_unbought</replace>
+      <replace>hist_click</replace>
+      <replace>last_click</replace>
+      <replace>reviews_df</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -436,13 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/data/adult.test" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/mlr.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/remap_id.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/convert_pd.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/0_download_raw.sh" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/1_convert_pd.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/build_dataset.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/2_remap_id.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model_dice.py" />
@@ -484,15 +280,22 @@
         <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/src/dkn.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data/news/news_preprocess.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/src/main.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/utils/2_remap_id.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/map_item_idx.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_dataset.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/build_model_data.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/1_convert_pd.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/2_remap_id.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_model_data.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
-    <option name="width" value="1766" />
+    <option name="width" value="1646" />
     <option name="height" value="1391" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -503,6 +306,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -519,26 +323,12 @@
               <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
               <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-Google-DCN-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-SJTU-PNN-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-SJTU-PNN-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-YoutubeNetwork-Demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,19 +339,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
-      <recent name="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data/de-en" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/src" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/raw_data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version" />
+      <recent name="$PROJECT_DIR$/RL/Basic-GAIL-Demo" />
+      <recent name="$PROJECT_DIR$/basic/Basic-Transformer-Demo/data/de-en" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -576,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train (2)">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -593,6 +383,44 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_model_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_model_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -643,22 +471,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="tensorflow1.2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/train.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -675,35 +487,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in train.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="tensorflow1.2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/train.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.train (1)" />
       <item itemvalue="Python.train (2)" />
-      <item itemvalue="Python tests.Nosetests in train.py" />
+      <item itemvalue="Python.build_model_data" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" />
-      <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.build_model_data" />
         <item itemvalue="Python.train (2)" />
         <item itemvalue="Python.train (1)" />
         <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/train.py" />
-        <item itemvalue="Python tests.Nosetests in /home/fong/MyProject/DL_practice/recommendation/Basic-DIEN-Demo/source_code/train.py" />
       </list>
     </recent_temporary>
   </component>
@@ -727,7 +524,8 @@
       <workItem from="1549008137228" duration="5430000" />
       <workItem from="1549931793538" duration="29470000" />
       <workItem from="1550021234920" duration="21622000" />
-      <workItem from="1550113699635" duration="14743000" />
+      <workItem from="1550113699635" duration="43589000" />
+      <workItem from="1550449614157" duration="26886000" />
     </task>
     <task id="LOCAL-00001" summary="修改稀疏矩阵的结构">
       <created>1547623386428</created>
@@ -953,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550136617810</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="..">
+      <created>1550137072491</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1550137072491</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -974,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361203000" />
+    <option name="totallyTimeSpent" value="416935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,23 +791,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1766" height="1391" extended-state="0" />
+    <frame x="0" y="27" width="1646" height="1391" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18917346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20588236" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291039" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49835634" weight="0.33544806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49835634" visible="true" weight="0.33544806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29421094" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32831088" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32831088" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33465505" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27279937" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011325" side_tool="true" weight="0.33540857" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4988675" weight="0.36575875" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4988675" weight="0.36558288" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1011,7 +817,7 @@
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32938856" />
       <window_info anchor="right" id="SciView" order="5" weight="0.24237289" />
-      <window_info anchor="right" x="0" y="0" width="391" height="1191" id="Documentation" order="6" side_tool="true" weight="0.13245033" />
+      <window_info anchor="right" x="0" y="0" width="391" height="1191" id="Documentation" order="6" side_tool="true" weight="0.1321212" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1069,129 +875,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow-1.12/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/rnn2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="748" column="23" selection-start-line="748" selection-start-column="23" selection-end-line="748" selection-end-column="23" />
-          <folding>
-            <element signature="e#731#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow-1.12/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="352" column="72" lean-forward="true" selection-start-line="352" selection-start-column="72" selection-end-line="352" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/log.txt" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train_dein2.log" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/train_dnn.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/local_aggretor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-KG-DKN-Demo/data/kg/entity2id.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-KG-DKN-Demo/data/kg/kg.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-KG-DKN-Demo/data/kg/Fast-TransX/transD/transD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="602" column="47" selection-start-line="602" selection-start-column="47" selection-end-line="602" selection-end-column="47" />
-          <folding>
-            <element signature="e#852#890#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="202" column="44" selection-start-line="202" selection-start-column="44" selection-end-line="202" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/script/generate_voc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-KG-DKN-Demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow-1.12/lib/python3.6/site-packages/tensorflow/python/ops/losses/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-KG-DKN-Demo/data/kg/kg_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1270,9 +953,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIEN-Demo/DIEN.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/DIN.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-Google-CMN-Demo/pretrain.py">
@@ -1367,47 +1047,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/2100929221/numpy/random/mtrand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="131">
+          <caret line="2022" column="4" selection-start-line="2022" selection-start-column="4" selection-end-line="2022" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/map_item_idx.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="633">
+          <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/utils/0_download_raw.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/utils/1_convert_pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/raw_data/meta_Electronics.json" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/1_convert_pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/raw_data/meta_Electronics.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-325">
+          <caret line="860" column="546" selection-start-line="860" selection-start-column="546" selection-end-line="860" selection-end-column="546" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/build_model_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="283">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/data_make/map_item_idx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="483">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/utils/2_remap_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/2_remap_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/DIN.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/prediction.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/raw_data/prediction.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="642">
+          <caret line="5652" column="5" selection-start-line="5652" selection-start-column="5" selection-end-line="5652" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1340145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/predict/prediction.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1149675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/utils/build_model_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="100" lean-forward="true" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-ALi-DIN-Demo/build_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        <state relative-caret-position="684">
+          <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-YoutubeNetwork-Demo/normal_version/model/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
